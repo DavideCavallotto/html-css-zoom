@@ -4,20 +4,28 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+}
+
 .container {
-    padding: 70px;
+    padding: 70px;    
+    
 }
 
 .hero-main {
     height: 100vh;
-    min-width: 1px;
-}
-
-.hero-main {
+    display: flex;
+    overflow: hidden; 
     background-color: black;    
 }
 
 .row {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    /* column-gap: 15px;   */
+    justify-content: center;
     
 }
 
@@ -33,33 +41,17 @@
     gap: 5px;
 }
 
-
+.user {
+    width: calc(100% / 7);
+    height: calc(100% / 5);       
+}
 
 .user-card {
     color: white;
-    position: relative;
+    position: relative;        
 }
 
-
-
-/* .user-name {       
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100px;
-} */
-
-
-
-/* Debug */
-
-.debug .user-card {
-    width: 300px;
-    height: 200px;
-    background-color: orange;
-    /* border: 1px solid white;    */
+.toolbar {
+    background-color: aqua;
+    height: 40px;
 }
-
-/* .debug .user-card {
-    border: 1px solid lawngreen;
-} */
