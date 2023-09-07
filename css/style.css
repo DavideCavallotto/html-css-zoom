@@ -5,27 +5,33 @@
 }
 
 img {
-    width: 100%;
+    width: 450px;
+    height: 350px;
 }
 
-.container {
-    padding: 70px;    
-    
+.app {
+    height: 100vh;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-main {
     height: 100vh;
     display: flex;
     overflow: hidden; 
-    background-color: black;    
+    background-color: black;
+    justify-content: center;
+    align-items: center; 
+    flex-grow: 1;   
 }
 
 .row {
     display: flex;
     flex-wrap: wrap;
     row-gap: 15px;
-    /* column-gap: 15px;   */
-    justify-content: center;
+    column-gap: 10px;  
+    justify-content: center;   
     
 }
 
@@ -41,11 +47,6 @@ img {
     gap: 5px;
 }
 
-.user {
-    width: calc(100% / 7);
-    height: calc(100% / 5);       
-}
-
 .user-card {
     color: white;
     position: relative;        
@@ -53,5 +54,6 @@ img {
 
 .toolbar {
     background-color: aqua;
-    height: 40px;
+    height: 60px;
+
 }
