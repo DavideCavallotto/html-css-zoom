@@ -24,6 +24,31 @@ img {
     justify-content: center;
     align-items: center; 
     flex-grow: 1;   
+    position: relative;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    color: white;
+}
+
+.square {
+    padding-right: 10px;
+}
+
+.s-view {
+    padding-right: 5px;
+}
+
+.grey-button {
+    background-color: gray;
+    line-height: 25px;
+    padding: 0 5px;
+    border: 2px solid black;
+    border-radius: 7px;
 }
 
 .row {
