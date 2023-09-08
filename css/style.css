@@ -78,7 +78,19 @@ img {
 }
 
 .toolbar {
-    background-color: aqua;
+    background-color: rgb(66, 66, 66);
     height: 60px;
 
+}
+
+.toolber-row {
+    display: flex;
+}
+
+.col-3 {
+    flex-basis: calc((100% / 12) * 3);
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
 }
